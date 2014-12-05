@@ -1,0 +1,2 @@
+[04-Aug-2014 18:08:17] PHP Fatal error:  Call to undefined function  add_action() in /home2/socialme/public_html/edgardaily.com/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[04-Aug-2014 18:08:18] PHP Fatal error:  Call to undefined function  add_action() in /home2/socialme/public_html/edgardaily.com/wp-content/plugins/contact-form-7/includes/upgrade.php on line 3

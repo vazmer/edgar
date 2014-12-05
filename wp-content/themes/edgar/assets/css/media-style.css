@@ -1,0 +1,11 @@
+
+
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-width: 1024px) {
+
+	.subscribe-container, .to-buy-container{
+		display:none;	
+	}
+
+}

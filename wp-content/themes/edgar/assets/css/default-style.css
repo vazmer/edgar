@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'great_vibesregular';
+    src: url('../fonts/greatvibes-regular-webfont.eot');
+    src: url('../fonts/greatvibes-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/greatvibes-regular-webfont.woff') format('woff'),
+         url('../fonts/greatvibes-regular-webfont.ttf') format('truetype'),
+         url('../fonts/greatvibes-regular-webfont.svg#great_vibesregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+ font-family: 'DIN-Medium';
+ src: url('../fonts/dinmd___.eot');
+ src: url('../fonts/dinmd___.eot?#iefix') format('embedded-opentype'), 
+ 	  url('../fonts/dinmd___.woff') format('woff'), 
+	  url('../fonts/dinmd___.ttf') format('truetype'), 
+	  url('../fonts/dinmd___.svg#dinmd___') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'din-light';
+    src: url('../fonts/dinlia_-webfont.eot');
+    src: url('../fonts/dinlia_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dinlia_-webfont.woff') format('woff'),
+         url('../fonts/dinlia_-webfont.ttf') format('truetype'),
+         url('../fonts/dinlia_-webfont.svg#din-lightalternateregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/lato-bol-webfont.eot');
+    src: url('../fonts/lato-bol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-bol-webfont.woff') format('woff'),
+         url('../fonts/lato-bol-webfont.ttf') format('truetype'),
+         url('../fonts/lato-bol-webfont.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-reg-webfont.eot');
+    src: url('../fonts/lato-reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-reg-webfont.woff') format('woff'),
+         url('../fonts/lato-reg-webfont.ttf') format('truetype'),
+         url('../fonts/lato-reg-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'tendernessregular';
+    src: url('../fonts/tenderness-webfont.eot');
+    src: url('../fonts/tenderness-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/tenderness-webfont.woff') format('woff'),
+         url('../fonts/tenderness-webfont.ttf') format('truetype'),
+         url('../fonts/tenderness-webfont.svg#tendernessregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/*Reset Styles
+
+----------------------------------------------------------------------------------- */
+
+body, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dt, dd, ol, ul, li, fieldset, form, input, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, img, article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary{
+
+	margin: 0;
+
+	padding: 0;
+
+	border: 0;
+
+	font-family:'din-light';
+
+}
+
+.clear {
+
+	clear:both;
+
+}
+
+.float-left{
+
+	float:left;
+
+}
+
+.float-right{
+
+	float:right;
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+
+	color:#000;
+
+	padding:5px 0 10px 0;
+
+	font-family:'DIN-Medium';
+
+}
+
+a {
+
+	color:#000;	
+
+	text-decoration:none;
+
+	-webkit-transition:all 200ms ease-in;
+
+    -o-transition:all 200ms ease-in;
+
+    transition: all 0.2s linear 0s;	
+
+}
+
+a:hover {
+
+	color:#000;
+
+	text-decoration:underline;
+
+}
+
+p {
+
+	color:#000;
+
+	font-family:'din-light';
+
+}
+
+ol{
+
+	list-style-position:inside;
+
+	list-style-type:disc;
+
+	padding:0 0 15px 0;
+
+}
+
+ol li{
+
+	color: #000;	
+
+}
+
+ul {
+
+	padding:0 0 15px 0;
+
+}
+
+ul li {
+
+	color: #6a6a6a;
+
+	font-family:'din-light';
+
+	list-style-type:none;
+
+	background:url(../images/bullet.png) no-repeat left 2px;
+
+	padding: 0 0 5px 15px;
+
+}
+
+li a{
+
+	color: #0099db;
+
+}
+
+.alignleft {
+
+	float:left;
+
+	margin:0 15px 15px 0;
+
+}
+
+.alignright {
+
+	float:right;
+
+	margin:0 0 15px 15px;
+
+}
+
+.aligncenter {
+
+	float:none;
+
+	margin:0 auto;
+
+}
+

@@ -1,0 +1,9 @@
+/* - CSS3 Media Query to target iPhone 4 and 
+above Retina displays which have double screen resolution - */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (-o-min-device-pixel-ratio: 3/2),
+	only screen and (min--moz-device-pixel-ratio: 1.5),
+	only screen and (min-device-pixel-ratio: 1.5) {
+		
+		
+}

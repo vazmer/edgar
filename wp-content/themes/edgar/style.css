@@ -1,0 +1,259 @@
+/*
+Theme Name: Edgar
+Theme URI: 
+Description: Edgar Magazine
+Author: Create Media Group
+Author URL: http://createmedia-group.com
+Version: 1.0
+Tags: 
+*/
+
+@import url("assets/css/custom-style.css?ver=1.064");
+@import url("assets/css/media-style.css");
+
+.pool {
+	display:none;
+}
+
+.slider-imgg {
+	display:none;
+}
+
+.right-slide-title {
+	display:none;
+}
+
+.subs-comp-form {
+	padding:0 0px 35px 4%; /* padding top was 700px */
+	background:#fff !important;
+	width:100%;
+	max-width:642px;
+}
+
+.subs-comp-form ul li select {
+	color:#000;
+	background:#fff;
+}
+
+.competition-thanks-img {
+	margin:0 auto;
+	margin-top:0 !important;
+	display:table;
+	padding-top:50px;
+}
+
+span.wpcf7-not-valid-tip {
+	display:inline !important;
+}
+
+.subs-comp-form ul li p {
+	color:#000 !important;
+}
+
+.subs-comp-form ul li label {
+	color:#000 !important;
+}
+
+.subs-comp-form ul li input[type="email"], .subs-comp-form ul li input[type="text"] {
+	background:#fff;
+	color:#000;
+}
+
+.featured-text {
+	top:50%;
+	margin-top:-50px;
+}
+
+.wpcf7-list-item-label {
+	color:#000 !important;
+}
+
+.competition-page .attachment-full,
+.thank-you-page .attachment-full {
+	display:table;
+	float:none;
+}
+
+.competition-page .attachment-full:hover,
+.thank-you-page .attachment-full:hover {
+	opacity:1;
+}
+
+.competition-page .post-content p {
+	padding:10px 35px 0px 0px;
+	color:#000;
+	max-width:655px;
+}
+
+.thank-you-page .breadcrum ul  {
+	padding:0 0 15px;
+}
+
+.screen-height,
+.featured-wrapper,
+ul.featured-items,
+ul.featured-items li,
+.left-shade, 
+.right-shade {
+	height:500px !important;
+	max-height:500px !important;
+}
+
+.subs-comp-form .wpcf7-form-control-wrap.emailcheck .wpcf7-list-item,
+.subs-comp-form .wpcf7-form-control-wrap.emailcheck .wpcf7-list-item input[type="radio"],
+.subs-comp-form .wpcf7-form-control-wrap.radiohear .wpcf7-list-item input[type="radio"]{
+	float:left;
+}
+
+.radiohear .wpcf7-list-item {
+	float:left !important;
+	margin-right:10px;
+}
+
+.emailcheck .wpcf7-list-item input[type="radio"],
+.radiohear .wpcf7-list-item input[type="radio"] {
+	margin-right:5px;
+}
+
+.competition-page .top-article {
+	margin:0 0 15px 11px;
+	max-width:668px;
+	border-bottom:0 solid #fff;
+	background:#fff;
+	padding-bottom:40px;
+}
+
+.clear {
+	clear:both;
+	width:100%;
+}
+
+.answers {
+	margin-top:20px;
+}
+
+.answer-form {
+	margin-left:4%;
+}
+
+#answer-submit-button {
+	outline:0 solid #fff;
+	margin-left:0;
+}
+
+.answer-form input[type="text"] {
+	width: 294px;
+	height: 28px;
+	margin: 35px 0px 20px 10px;
+	padding: 3px;
+	float: left;
+	border-radius: 8px;
+	border: 1px solid #424242;
+	color: #000;
+	background: url('field-bg.png') repeat scroll 0% 0% transparent;
+}
+
+.answer-form .wpcf7-quiz-label {
+	color:#000;
+	padding-left:10px;
+}
+
+.answer-form .answer-form-submit {
+	float:left;
+	width:100%;
+	margin-top:20px;
+	margin-left:0;
+}
+
+.answer-form span.wpcf7-not-valid-tip {
+	display:none !important;
+}
+
+.answer-form .answer-form-submit .wpcf7-submit,
+.subs-comp-form ul li input[type="submit"].wpcf7-submit {
+color:#fff;
+cursor:pointer;
+font-size:18px;
+line-height:18px;
+margin-left:0;
+padding:12px 36px;
+text-shadow:  1px 1px 0 #620d0d;
+border-top:1px solid #802020;
+border-left:1px solid #802020;
+border-right:1px solid #802020;
+border-bottom:1px solid #802020;
+border-radius:10px;
+background: #cd1414; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NkMTQxNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5YzE3MTciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, #cd1414 0%, #9c1717 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cd1414), color-stop(100%,#9c1717)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #cd1414 0%,#9c1717 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #cd1414 0%,#9c1717 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #cd1414 0%,#9c1717 100%); /* IE10+ */
+background: linear-gradient(to bottom, #cd1414 0%,#9c1717 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cd1414', endColorstr='#9c1717',GradientType=0 ); /* IE6-8 */
+text-indent:0;
+flaot:none;
+width:auto;
+height:auto;
+}
+
+.competition-validation {
+	font-size:36px;
+	color:#7474de;
+	text-align:center;
+}
+
+.subs-comp-form ul li input[type="submit"].wpcf7-submit  {
+	float:right !important;
+}
+
+.fancybox-opened {
+	z-index:100000 !important;
+}
+
+/* Competition answer form */
+#wpcf7-f9256-o1 div.wpcf7-response-output {
+	padding:0.2em 0;
+	text-align:center;
+	font-size:36px;
+	color:#f69b4a;
+	border:0 solid #fff;
+	position:static;
+	float:left;
+	width:100%;
+}
+
+/* Competition info form */
+#wpcf7-f4995-o2 div.wpcf7-response-output { 
+	bottom:30px !important;
+}
+
+.subs-form-intro {
+	padding:0;
+	margin:0 0 20px 0;
+}
+
+.banner-wrapper {
+	display:none;
+}
+
+.exclusive-event {
+	float:left;
+	margin: 15px 0 10px;
+}
+
+@media all and (max-width: 768px) {
+#slider {
+	display:none !important;
+}
+
+div.wpcf7-validation-errors {
+	position:fixed;
+	bottom:100px;
+	right:0;
+	width:50%;
+}
+
+}/* 768px media query */
